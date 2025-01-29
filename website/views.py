@@ -21,9 +21,7 @@ from openai import OpenAI
 import markdown
 
 # OpenAI key
-client = OpenAI(
-    api_key="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"
-)
+client = OpenAI(api_key="for api key refers to our discord discussion")
 
 # views blueprint
 views = Blueprint("views", __name__)
@@ -66,7 +64,7 @@ def home():
         city = request.form.get("city")
         if city is not None:
             # Means the weather form was submitted
-            api_key = "107ca8f2f99119418aed5ec2072dbdb3"  # example key
+            api_key = "for api key refers to our discord discussion"  # example key
             base_url = "http://api.openweathermap.org/data/2.5/weather"
 
             # define query params
