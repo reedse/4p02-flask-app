@@ -1,3 +1,4 @@
+# for home page (what features inside /(home) page)
 from flask import Blueprint, render_template, request, flash, jsonify
 
 # current_user if the current user is logged this will give all the infos regarding the user
