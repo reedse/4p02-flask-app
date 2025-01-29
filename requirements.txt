@@ -1,0 +1,7 @@
+flask
+flask-login
+Flask-SQLAlchemy
+
+
+pip3 install --upgrade openai
+pip3 install markdown 
