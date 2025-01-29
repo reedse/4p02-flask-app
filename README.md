@@ -4,40 +4,59 @@
 
 - Basic flask extension
 
+```
   pip3 install flask
 
   pip3 install flask-login
 
   pip3 install flask-sqlalchemy
+```
 
 - OpenAi
 
+```
   pip3 install --upgrade openai
+```
 
 - For formatting the AI reponse in markdown
 
+```
   pip3 install markdown
+```
 
 ## Running the tests
 
 Run code (Python 3.9.6) or commands
 
+```
     python3 main.py
+```
 
 On
 
+```
     http://127.0.0.1:8000/
+```
 
 ## Running the tests
 
 - Homepage
+
+```
   http://127.0.0.1:8000/
+```
 
 - Login page
+
+```
   http://127.0.0.1:8000/login
+```
 
 - Sign-up Page
+
+```
   http://127.0.0.1:8000/sign-up
+```
 
 ### Sample Tests
 
