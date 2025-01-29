@@ -60,7 +60,7 @@ On
 
 ### Sample Tests
 
-- Feature in homepage: Notes add or delete, Weather check, OpenAi text generation (model 4o)
+- Features in homepage: Notes add or delete, Weather check, OpenAi text generation (model 4o)
 - For OpenAI text generation, after asking question and clicking ask button, it takes about 5 secs to get the response back from API and load it up on the browser
 - for API keys, refer to our group chat #general discussion
 
