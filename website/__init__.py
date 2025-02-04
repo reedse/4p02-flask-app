@@ -8,7 +8,7 @@ from os import path
 
 # we need to tell flask how a user actually log in, how to find a user, LoginManager helps us to manage login related things
 from flask_login import LoginManager
-
+from flask_cors import CORS
 
 db = SQLAlchemy()
 DB_NAME = "database.db"
@@ -16,6 +16,7 @@ DB_NAME = "database.db"
 
 def create_app():
     app = Flask(__name__)
+    CORS(app)
     app.static_folder = "static"
     app.config["SECRET_KEY"] = "super secret key"
     app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{DB_NAME}"

@@ -1,9 +1,7 @@
 # 4p02-flask-app
 
 ### Setup & Installation
-
 - Basic flask extension
-
 ```
   pip3 install flask
 
@@ -13,7 +11,6 @@
 ```
 
 - OpenAi
-
 ```
   pip3 install --upgrade openai
 ```
@@ -24,48 +21,60 @@
   pip3 install markdown
 ```
 
+- React
+Cd into templates/ where the react project is located
+```
+  npm install
+```
+
+
 ## Running the tests
-
-Run code (Python 3.9.6) or commands
-
+Backend (running on http://127.0.0.1:5000/):
+- Open one terminal, cd into project folder and run:
 ```
     python3 main.py
 ```
 
-On
+Frontend (running on http://127.0.0.1:3000/):
+- Open a 2nd terminal, cd into templates/ where the react project is located
+```
+    npm run dev
+```
 
-```
-    http://127.0.0.1:8000/
-```
 
 ## Running the tests
 
 - Homepage
 
 ```
-  http://127.0.0.1:8000/
+  http://127.0.0.1:3000/
+  http://127.0.0.1:3000/dashboard
 ```
 
 - Login page
 
 ```
-  http://127.0.0.1:8000/login
+  http://127.0.0.1:3000/login
 ```
 
 - Sign-up Page
 
 ```
-  http://127.0.0.1:8000/sign-up
+  http://127.0.0.1:3000/sign-up
 ```
 
-### Sample Tests
+- Checking database
+Use 
 
-- Features in homepage: Notes add or delete, Weather check, OpenAi text generation (model 4o)
-- For OpenAI text generation, after asking question and clicking ask button, it takes about 5 secs to get the response back from API and load it up on the browser
-- for API keys, refer to our group chat #general discussion
+```
+  https://sqliteviewer.app/
+```
+
+Drag and drop database.db located in the 'instance' folder onto the site to view it.
+You will have to upload the file again to see any databasechanges, as 
+it doesn't update automatically.
+
 
 ## Built on top of this tutorial with some minor tweaks/additions
 
 - [Python Website Full Tutorial - Flask, Authentication, Databases & More](https://www.youtube.com/watch?v=dam0GPOAvVI&t=2317s)
-
-- [Github repo](https://github.com/techwithtim/Flask-Web-App-Tutorial)

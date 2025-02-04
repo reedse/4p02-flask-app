@@ -1,6 +1,8 @@
 flask
 flask-login
 Flask-SQLAlchemy
+Flask-CORS
+PyJWT
 
 
 pip3 install --upgrade openai
